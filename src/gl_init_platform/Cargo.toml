@@ -10,7 +10,8 @@ name = "gl_init_platform"
 path = "lib.rs"
 
 [dependencies.gl-init-rs]
-git = "https://github.com/tomaka/gl-init-rs.git"
+git = "https://github.com/pnkfelix/gl-init-rs.git"
+branch = "fsk-fix-osx-dummy-impl"
 
 [dependencies.device]
 path = "../device/"
