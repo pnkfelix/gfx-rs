@@ -67,7 +67,8 @@ path = "examples/terrain/main.rs"
 # git = "http://github.com/bjz/cgmath-rs"
 
 [dev_dependencies.genmesh]
-git = "https://github.com/csherratt/genmesh.git"
+git = "https://github.com/pnkfelix/genmesh.git"
+branch = "fsk-remove-dep-on-libdebug"
 
 [dev_dependencies.noise-rs]
 git = "https://github.com/bjz/noise-rs.git"
@@ -78,8 +79,8 @@ name = "glutin"
 path = "examples/glutin/main.rs"
 
 [dev_dependencies.glutin]
-git = "https://github.com/tomaka/gl-init-rs.git"
-
+git = "https://github.com/pnkfelix/gl-init-rs.git"
+branch = "fsk-get-it-building"
 
 [[example]]
 name = "performance"
@@ -89,7 +90,11 @@ path = "examples/performance/main.rs"
 # git = "https://github.com/bjz/glfw-rs.git"
 
 [dev_dependencies.gfx_gl]
-git = "https://github.com/gfx-rs/gfx_gl.git"
+# git = "https://github.com/gfx-rs/gfx_gl.git"
+git = "https://github.com/pnkfelix/gfx_gl.git"
 
 # [dev_dependencies.cgmath]
 # git = "http://github.com/bjz/cgmath-rs"
+
+# [dev_dependencies.sax]
+# git = "https://github.com/bjz/sax-rs"
